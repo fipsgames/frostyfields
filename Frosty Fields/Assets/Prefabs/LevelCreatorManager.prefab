@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3418094441454438586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3415628924704233986}
+  - component: {fileID: 3416140250382124714}
+  - component: {fileID: 3416140250382124717}
+  m_Layer: 0
+  m_Name: LevelCreatorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3415628924704233986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418094441454438586}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 50, y: 1, z: 50}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3416140250382124714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418094441454438586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2fbd8d16df9540d2acc0e193a55ef01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdown: {fileID: 0}
+  buttonNew: {fileID: 0}
+  buttonDelete: {fileID: 0}
+  buttonMoveUp: {fileID: 0}
+  buttonMoveDown: {fileID: 0}
+  buttonUp: {fileID: 0}
+  buttonDown: {fileID: 0}
+  buttonWater: {fileID: 0}
+  buttonSnow: {fileID: 0}
+  buttonIce: {fileID: 0}
+  buttonCrack: {fileID: 0}
+  buttonTree: {fileID: 0}
+  buttonFire: {fileID: 0}
+  buttonGoal: {fileID: 0}
+  buttonFish: {fileID: 0}
+  buttonSnowBall: {fileID: 0}
+  buttonIceBall: {fileID: 0}
+  buttonPlayer: {fileID: 0}
+  buttonPlayCustom: {fileID: 0}
+  buttonPlayMain: {fileID: 0}
+  buttonMove: {fileID: 0}
+  levelDisplay: {fileID: 0}
+  snowIni: {fileID: 1905925544212674, guid: 9cd20d4c5e255452a81ec9537e6eb79a, type: 3}
+  iceIni: {fileID: 1764701546854736, guid: a7ac2420035b54c0c9340856d0f605d6, type: 3}
+  crackIni: {fileID: 1197451452244532, guid: b7dd9a19ace9f4e6b8ba9e74816c9ad1, type: 3}
+  fireIni: {fileID: 1202248174298118, guid: 0a471d706a0d34eb6a4579346f73716d, type: 3}
+  treeIni: {fileID: 1189777247820304, guid: dca460d8d08864da9843ee6ba7e55162, type: 3}
+  goalIni: {fileID: 1958294707220030, guid: 69194ac2afa8040179fa2df65f7dc3ce, type: 3}
+  snowBallIni: {fileID: 1984090812668984, guid: ffe9fe714757c48cf952918c14379a47,
+    type: 3}
+  iceBallIni: {fileID: 1984090812668984, guid: 78a72ac746fea4c36ada692012c9106c, type: 3}
+  fishIni: {fileID: 3874653509976972700, guid: 114a3b38e3bf749c198b1b0730a3dfe3, type: 3}
+  playerIni: {fileID: 1762406128486310, guid: 8e5dccd767a3b4ca3aea61858a4ac34e, type: 3}
+  cameraRef: {fileID: 0}
+--- !u!114 &3416140250382124717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418094441454438586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225df9fca9c6e46929f53b23ea19befc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelAsset: {fileID: 4900000, guid: d81c6a3f6b1944d91bc6f867b17ae9c9, type: 3}

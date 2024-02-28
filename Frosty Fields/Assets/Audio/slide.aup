@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="slide_data" version="1.3.0" audacityversion="2.2.1" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + Millisekunden" frequencyformat="Hz" bandwidthformat="Oktaven">
+	<tags/>
+	<wavetrack name="Tonspur" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30720">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000be3.au" len="30720" min="-0.167865" max="0.18115" rms="0.025652"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="6">
+				<controlpoint t="0.000000000000" val="0.380281686783"/>
+				<controlpoint t="0.000000000000" val="0.667705195971"/>
+				<controlpoint t="0.104489795918" val="0.985915482044"/>
+				<controlpoint t="0.476009070295" val="0.985915482044"/>
+				<controlpoint t="0.696598639456" val="0.629486932338"/>
+				<controlpoint t="0.696598639456" val="0.521126747131"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+</project>
