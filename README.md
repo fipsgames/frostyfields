@@ -2,5 +2,7 @@
 
 git repo of frosty fields, a unity game made by me
 
-currently only available for Android here:
-https://play.google.com/store/apps/details?id=com.fipsgames.frostyfields
+## How to install on android
+
+download the apk from apk/<version>/ to your android device, open it and follow the install proccess of your device
+depending on your device settings you might need to confirm installing from non google play store source
