@@ -1,4 +1,4 @@
-# FROTY FIELDS 
+# FROSTY FIELDS 
 
 git repo of frosty fields, a unity game made by me
 
